@@ -1,0 +1,167 @@
+
+/*Barra de navegacao*/
+.barra-topo {
+    background-color: #DF8C7F;
+}
+
+/*lettring navbar*/
+.navbar .navbar-nav .nav-item .nav-link {
+    color: #FFFFFF;
+    text-transform:lowercase; 
+    margin-right: 25px; 
+    margin-left: 25px;
+    margin-top: 15px;
+    font-size: 18px; 
+    font-family: 'Libre Caslon Text', serif;
+} 
+
+/*Fontes e texto*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.biografico1 {
+    font-family: 'Libre Caslon Text', serif;
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 35px;
+    font-size: 20px;
+    color: #5B6673;
+    } 
+
+
+.biografico2 {
+    font-family: 'Libre Caslon Text', serif;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #5B6673;
+    }
+
+.frase {
+    font-family: 'Libre Caslon Text', serif;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    font-size: 24px;
+    color: #5B6673;
+    }
+
+
+/*Imagens*/
+.imagembio {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 547px; 
+    height: auto; 
+}
+
+.icones li a {
+    color: #FFFFFF; /*COR DO TEXTO*/
+}
+
+/*colocar espaços*/
+.logo { 
+    margin-top: 10px; 
+    margin-bottom: -40px;
+    
+}
+
+/*espaços imagens na pagina da pintura*/
+.col-md-4 { 
+    margin-top: 40px; 
+    margin-bottom: 40px;
+   
+}
+
+/* retirar bullets das listas*/
+.icones {
+    list-style: none;
+    padding: 0px; /* Anula quaisquer paddings que possam existir */
+    margin: 0px; /* Anula quaisquer margens que possam existir */
+    text-align: center; /* Centra as listas dentro de um UL ou OL*/
+}
+
+/*colocar as listas em linha*/
+.icones li {
+    display: inline;
+   
+
+}
+
+/*ícones redes sociais*/
+
+.fa-brands, .fa-solid {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 70px;
+    margin-left: 5px; 
+    margin-right: 5px;
+
+  
+}
+
+.rodape p {
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase; /* Transformar o texto em maiúsculas*/
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+
+/* texto com hiperligação*/
+a {
+    color: #FFFFFF;
+    text-decoration: none; 
+
+}
+
+a:hover {
+    color: #D0AC68; 
+}
+
+
+/*Espaço Contacto com Formulario*/
+
+.textoforms { 
+color: #FFFFFF;
+font-size: 18px;
+}
+
+.caixaforms {
+margin-top: 4px;
+margin-bottom: 25px;
+border: 2px solid #D0AC68; /* Adapte a cor e espessura conforme necessário */
+padding: 10px; /* Adapte o espaçamento interno conforme necessário */
+border-radius: 5px; /* Adapte o raio da borda conforme necessário */
+margin-bottom: 10px;
+}
+
+.btn-custom {
+background-color: #D0AC68; 
+color: #FFFFFF;
+font-size: 16px;
+padding: 8px 30px
+}
+
+.espaco-azul {
+    margin-top: 50px;
+    background-color: #1B76AE; /* Define a cor de fundo como azul */
+    color: white; /* Define a cor do texto como branco para contrastar com o fundo */
+    padding: 20px;
+}
+
+
+.retirar-margens {
+    margin-left: -20px; /* os valores da margin e padding pode ser negativo, o que neste caso ajuda */
+    margin-right: -20px;/* os valores da margin e padding pode ser negativo, o que neste caso ajuda */
+}
